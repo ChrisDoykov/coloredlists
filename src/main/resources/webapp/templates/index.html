@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel = "stylesheet" href="/static/main.css">
+</head>
+<body>
+<ul th:each ="list:${lists}">
+    <li th:text = "${list.id}">
+
+    </li>
+
+</ul>
+</body>
+</html>
